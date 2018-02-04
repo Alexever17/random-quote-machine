@@ -18,7 +18,7 @@ $(document).ready(function() {
       }
 
     });
-  };
+  }
 
 //Load new Quote on click
   $("#getquote").on("click", function(){
