@@ -35,13 +35,11 @@ h1 {
 }
 
 .quote-box {
-  min-height: 70%;
-  min-height: 600px;
-  width: 70%;
-  background-image: url("quote1.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
+  min-height: 50%;
+  min-height: 400px;
+  width: 50%;
+  background: rgba(0, 0, 0, 0.7);
+  border: 3px solid white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -52,7 +50,7 @@ h1 {
 .quote-box .quote {
   padding-top: 10%;
   text-align: center;
-  width: 36%;
+  width: 80%;
   color: white;
 }
 
@@ -66,16 +64,12 @@ h1 {
 }
 
 button {
-  margin: 10px 10px;
+  margin: 30px 10px;
   width: 200px;
-  height: 100px;
-  background-color: transparent;
-  background-image: url("button.png");
-  background-repeat: no-repeat;
-  background-size: 200px 90px;
-  background-position: center;
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.7);
   color: white;
-  border: none;
+  border: 3px solid white;
   cursor: pointer;
   font-size: 150%;
   outline: none;
@@ -92,26 +86,14 @@ footer a {
   color: white;
 }
 
-@media only screen and (max-width: 1000px) {
-  .quote-box .quote {
-    width: 55%;
-  }
-}
 @media only screen and (max-width: 800px) {
-  .quote-box .quote {
-    width: 60%;
-  }
-}
-@media only screen and (max-width: 600px) {
-  .quote-box .quote {
-    padding-top: 20%;
+  .quote-box {
     width: 80%;
   }
 }
 @media only screen and (max-width: 500px) {
   .quote-box .quote {
-    padding-top: 30%;
-    width: 80%;
+    padding-top: 10%;
     font-size: 130%;
   }
 }
@@ -127,7 +109,7 @@ footer a {
 
   button {
     margin: 10px 10px;
-    width: 150px;
+    width: 140px;
     height: 80px;
     background-size: 150px 70px;
   }
@@ -136,19 +118,11 @@ footer a {
     width: 100%;
   }
 
-  .quote-box .quote {
-    padding-top: 30%;
-    width: 80%;
-    font-size: 130%;
-  }
-
   .quote-box {
     min-height: 350px;
   }
   .quote-box .quote {
-    padding-top: 10%;
-    width: 70%;
-    font-size: 100%;
+    font-size: 110%;
   }
 }
 
